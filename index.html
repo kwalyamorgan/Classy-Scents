@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ClassyScents offers premium fragrances for men and women, featuring oud, musk, rose, amber, and saffron collections with direct WhatsApp ordering.">
+  <meta name="keywords" content="ClassyScents, perfumes, luxury fragrance, oud perfume, musk perfume, WhatsApp order">
+
+  <title>ClassyScents | Luxury Fragrances</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="images/hero.jpeg" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="preloadSplash" class="preload-splash">
+    <img src="images/hero.jpeg" alt="ClassyScents" class="preload-logo" decoding="async">
+    <p class="preload-text">Loading Fragrances...</p>
+  </div>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="header">
+    <div class="logo-container">
+      <img src="images/logo.png" class="logo" alt="ClassyScents logo" decoding="async">
+      <span class="brand-name">ClassyScents</span>
+    </div>
+
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#featured">Featured</a>
+      <a href="#catalogue">Catalogue</a>
+      <a href="#collections">Collections</a>
+      <a href="#about">About</a>
+      <a href="#faq">FAQ</a>
+      <a href="#order">Order</a>
+    </nav>
+
+    <button id="themeToggle" class="theme-toggle" type="button" aria-label="Enable dark mode">
+      Night Mode
+    </button>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-text">
+        <p class="eyebrow">Signature Luxury Since 2020</p>
+
+        <h1 id="hero-heading">Luxury Fragrances That Define You</h1>
+
+        <p>
+          Discover premium scents designed to leave a lasting impression. From deep woody oud
+          to airy floral blends, each bottle in our collection is selected for quality, elegance,
+          and long-lasting performance.
+        </p>
+
+        <p>
+          Browse by mood, note profile, and occasion. Order instantly through WhatsApp and our
+          team will guide you on stock, gifting options, and same-day city delivery.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn-primary" href="#catalogue">Explore Collection</a>
+          <a class="btn-secondary" href="#order">Order on WhatsApp</a>
+        </div>
+
+        <ul class="hero-highlights" aria-label="Service highlights">
+          <li>Authentic luxury fragrances</li>
+          <li>Gift-ready premium packaging</li>
+          <li>Fast delivery and support</li>
+        </ul>
+      </div>
+
+      <div class="hero-image">
+          <video class="hero-video" autoplay muted loop playsinline controls preload="metadata" poster="images/hero.jpeg" aria-label="ClassyScents animation video">
+            <source src="animation.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+      </div>
+    </section>
+
+
+
+    <section id="featured" class="section">
+      <h2 class="section-title">Featured Scents</h2>
+
+      <p class="section-subtitle">
+        Our most-loved fragrances this month, selected for projection, longevity, and refined character.
+      </p>
+
+      <div class="marquee-container">
+        <div class="marquee-track" id="featuredCarousel">
+          <article class="featured-card">
+            <img src="images/kay2.jpeg" class="perfume-bottle" alt="KAY ALI bottle" loading="lazy" decoding="async">
+            <h3>KAY ALI</h3>
+            <p>Smoky oud, saffron, and cedar for a confident, regal trail.</p>
+          </article>
+
+          <article class="featured-card">
+            <img src="images/kay1.jpeg" class="perfume-bottle" alt="Midnight Musk bottle" loading="lazy" decoding="async">
+            <h3>Midnight Musk</h3>
+            <p>Dark musk balanced with bergamot and sandalwood for modern evenings.</p>
+          </article>
+
+          <article class="featured-card">
+            <img src="images/oy.jpeg" class="perfume-bottle" alt="Velvet Rose bottle" loading="lazy" decoding="async">
+            <h3>Velvet Rose</h3>
+            <p>Rich rose petals with warm amber undertones for elegant occasions.</p>
+          </article>
+
+          <article class="featured-card">
+            <img src="images/oy2.jpeg" class="perfume-bottle" alt="Amber Noir bottle" loading="lazy" decoding="async">
+            <h3>Amber Noir</h3>
+            <p>Warm amber resin layered with tonka and patchouli for depth.</p>
+          </article>
+
+          <article class="featured-card">
+            <img src="images/kay2.jpeg" class="perfume-bottle" alt="Saffron Dreams bottle" loading="lazy" decoding="async">
+            <h3>Saffron Dreams</h3>
+            <p>Luxurious saffron with rosewood and warm incense notes.</p>
+          </article>
+
+          <article class="featured-card">
+            <img src="images/kay1.jpeg" class="perfume-bottle" alt="Silk Musk bottle" loading="lazy" decoding="async">
+            <h3>Silk Musk</h3>
+            <p>Creamy silk musk with white florals for refined elegance.</p>
+          </article>
+
+          <article class="featured-card">
+            <img src="images/kay2.jpeg" class="perfume-bottle" alt="KAY ALI bottle">
+            <h3>KAY ALI</h3>
+            <p>Smoky oud, saffron, and cedar for a confident, regal trail.</p>
+          </article>
+
+          <article class="featured-card">
+            <img src="images/kay1.jpeg" class="perfume-bottle" alt="Midnight Musk bottle">
+            <h3>Midnight Musk</h3>
+            <p>Dark musk balanced with bergamot and sandalwood for modern evenings.</p>
+          </article>
+
+          <article class="featured-card">
+            <img src="images/oy.jpeg" class="perfume-bottle" alt="Velvet Rose bottle">
+            <h3>Velvet Rose</h3>
+            <p>Rich rose petals with warm amber undertones for elegant occasions.</p>
+          </article>
+
+          <article class="featured-card">
+            <img src="images/oy2.jpeg" class="perfume-bottle" alt="Amber Noir bottle">
+            <h3>Amber Noir</h3>
+            <p>Warm amber resin layered with tonka and patchouli for depth.</p>
+          </article>
+
+          <article class="featured-card">
+            <img src="images/kay2.jpeg" class="perfume-bottle" alt="Saffron Dreams bottle">
+            <h3>Saffron Dreams</h3>
+            <p>Luxurious saffron with rosewood and warm incense notes.</p>
+          </article>
+
+          <article class="featured-card">
+            <img src="images/kay1.jpeg" class="perfume-bottle" alt="Silk Musk bottle">
+            <h3>Silk Musk</h3>
+            <p>Creamy silk musk with white florals for refined elegance.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="collections" class="section" aria-labelledby="collections-title">
+      <h2 class="section-title" id="collections-title">Shop by Collection</h2>
+
+      <div class="collection-grid">
+        <article class="collection-card" data-collection="oud">
+          <h3>Oud Collection</h3>
+          <p>Deep, woody, and luxurious blends inspired by Middle Eastern perfumery traditions.</p>
+        </article>
+
+        <article class="collection-card" data-collection="floral">
+          <h3>Floral Collection</h3>
+          <p>Refined rose, jasmine, and peony accords with soft musky finishes.</p>
+        </article>
+
+        <article class="collection-card" data-collection="musk">
+          <h3>Signature Musk Collection</h3>
+          <p>Clean to sensual musk tones layered with amber and powdery sweetness.</p>
+        </article>
+
+        <article class="collection-card" data-collection="reserve">
+          <h3>Limited Reserve</h3>
+          <p>Small-batch premium fragrances offered in limited quantities throughout the year.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="catalogue" class="section">
+      <h2 class="section-title">Fragrance Catalogue</h2>
+
+      <p class="section-subtitle">
+        Use search to quickly find your preferred scent profile. Tap any product to order directly.
+      </p>
+
+      <div class="search-container">
+        <label for="searchInput" class="visually-hidden">Search perfumes</label>
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search perfumes by name or note..."
+          autocomplete="off"
+        >
+        <button type="button" onclick="searchProducts()">Search</button>
+      </div>
+
+      <div class="catalogue-controls" aria-label="Filter and sort products">
+        <div class="filter-chips" role="group" aria-label="Filter by fragrance family">
+          <button type="button" class="filter-chip is-active" data-filter="all">All</button>
+          <button type="button" class="filter-chip" data-filter="oud">Oud</button>
+          <button type="button" class="filter-chip" data-filter="musk">Musk</button>
+          <button type="button" class="filter-chip" data-filter="floral">Floral</button>
+          <button type="button" class="filter-chip" data-filter="amber">Amber</button>
+        </div>
+
+        <div class="price-filter">
+          <label for="minPriceRange">Price Range:</label>
+          <div class="price-values">
+            <span id="minPriceValue">$60</span>
+            <span id="maxPriceValue">$100</span>
+          </div>
+          <div class="price-sliders">
+            <input type="range" id="minPriceRange" min="60" max="100" value="60" step="1" aria-label="Minimum perfume price">
+            <input type="range" id="maxPriceRange" min="60" max="100" value="100" step="1" aria-label="Maximum perfume price">
+          </div>
+        </div>
+
+        <div class="sort-wrap">
+          <label for="sortSelect">Sort by</label>
+          <select id="sortSelect" aria-label="Sort products">
+            <option value="featured">Featured</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+            <option value="name-asc">Name: A to Z</option>
+          </select>
+        </div>
+      </div>
+
+      <p id="catalogueCount" class="catalogue-count" aria-live="polite"></p>
+
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-name="oud royale" data-category="oud" data-price="85" data-order="1">
+          <div class="product-image-wrap">
+            <img src="images/hero.jpeg" class="perfume-bottle" alt="Oud Royale perfume">
+            <span class="category-badge">Oud</span>
+          </div>
+
+          <div class="product-info">
+            <h3>Oud Royale</h3>
+            <p class="price">$85</p>
+            <p class="notes">Oud wood, saffron, cedar, amber</p>
+            <p class="wear">Evening wear • Formal events</p>
+            <div class="product-actions">
+              <button type="button" class="quick-view-btn" data-quickview>Quick View</button>
+              <a class="whatsapp-btn" href="https://wa.me/254700000000?text=Hello%20I%20want%20to%20order%20Oud%20Royale">Order</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="midnight musk" data-category="musk" data-price="72" data-order="2">
+          <div class="product-image-wrap">
+            <img src="images/kay1.jpeg" class="perfume-bottle" alt="Midnight Musk perfume">
+            <span class="category-badge">Musk</span>
+          </div>
+
+          <div class="product-info">
+            <h3>Midnight Musk</h3>
+            <p class="price">$72</p>
+            <p class="notes">Black musk, bergamot, sandalwood</p>
+            <p class="wear">Date nights • Cool evenings</p>
+            <div class="product-actions">
+              <button type="button" class="quick-view-btn" data-quickview>Quick View</button>
+              <a class="whatsapp-btn" href="https://wa.me/254700000000?text=Hello%20I%20want%20to%20order%20Midnight%20Musk">Order</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="velvet rose" data-category="floral" data-price="68" data-order="3">
+          <div class="product-image-wrap">
+            <img src="images/oy.jpeg" class="perfume-bottle" alt="Velvet Rose perfume">
+            <span class="category-badge">Floral</span>
+          </div>
+
+          <div class="product-info">
+            <h3>Velvet Rose</h3>
+            <p class="price">$68</p>
+            <p class="notes">Damask rose, vanilla, white musk</p>
+            <p class="wear">Romantic dinners • Celebrations</p>
+            <div class="product-actions">
+              <button type="button" class="quick-view-btn" data-quickview>Quick View</button>
+              <a class="whatsapp-btn" href="https://wa.me/254700000000?text=Hello%20I%20want%20to%20order%20Velvet%20Rose">Order</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="amber noir" data-category="amber" data-price="79" data-order="4">
+          <div class="product-image-wrap">
+            <img src="images/oy2.jpeg" class="perfume-bottle" alt="Amber Noir perfume">
+            <span class="category-badge">Amber</span>
+          </div>
+
+          <div class="product-info">
+            <h3>Amber Noir</h3>
+            <p class="price">$79</p>
+            <p class="notes">Amber resin, tonka bean, patchouli</p>
+            <p class="wear">All-season • Signature scent</p>
+            <div class="product-actions">
+              <button type="button" class="quick-view-btn" data-quickview>Quick View</button>
+              <a class="whatsapp-btn" href="https://wa.me/254700000000?text=Hello%20I%20want%20to%20order%20Amber%20Noir">Order</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="royal saffron" data-category="oud" data-price="92" data-order="5">
+          <div class="product-image-wrap">
+            <img src="images/kay2.jpeg" class="perfume-bottle" alt="Royal Saffron perfume">
+            <span class="category-badge">Oud</span>
+          </div>
+
+          <div class="product-info">
+            <h3>Royal Saffron</h3>
+            <p class="price">$92</p>
+            <p class="notes">Saffron, rosewood, warm incense</p>
+            <p class="wear">Luxury gifting • Formal occasions</p>
+            <div class="product-actions">
+              <button type="button" class="quick-view-btn" data-quickview>Quick View</button>
+              <a class="whatsapp-btn" href="https://wa.me/254700000000?text=Hello%20I%20want%20to%20order%20Royal%20Saffron">Order</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <aside id="noResultsCard" class="no-results-card" hidden aria-live="polite">
+        <h3>No matching fragrance found</h3>
+        <p>Try widening your price range or choosing a different note family. Our team can also recommend a scent for your budget.</p>
+        <a id="noResultsCta" class="whatsapp-btn" href="https://wa.me/254700000000?text=Hello%20I%20need%20help%20choosing%20a%20fragrance">
+          Get Recommendations on WhatsApp
+        </a>
+      </aside>
+    </section>
+
+    <div id="quickViewModal" class="quick-view-modal" hidden aria-hidden="true">
+      <div class="quick-view-backdrop" data-close-modal></div>
+      <div class="quick-view-panel" role="dialog" aria-modal="true" aria-labelledby="quickViewTitle">
+        <button type="button" class="quick-view-close" aria-label="Close quick view" data-close-modal>Close</button>
+
+        <div class="quick-view-grid">
+          <img id="quickViewImage" src="" alt="Selected perfume">
+
+          <div>
+            <h3 id="quickViewTitle"></h3>
+            <p id="quickViewPrice" class="price"></p>
+            <p id="quickViewNotes" class="notes"></p>
+            <p id="quickViewWear" class="wear"></p>
+            <a id="quickViewWhatsapp" class="whatsapp-btn" href="#">Order via WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="about" class="section" aria-labelledby="about-title">
+      <h2 class="section-title" id="about-title">Why Choose ClassyScents</h2>
+
+      <div class="about-grid">
+        <article class="about-card">
+          <h3>Curated Quality</h3>
+          <p>Every fragrance is selected based on blend quality, longevity, and character.</p>
+        </article>
+
+        <article class="about-card">
+          <h3>Trusted Service</h3>
+          <p>Our team responds quickly on WhatsApp to support recommendations and order updates.</p>
+        </article>
+
+        <article class="about-card">
+          <h3>Elegant Packaging</h3>
+          <p>Each order is packed to feel premium, making it ideal for both personal use and gifting.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section" aria-labelledby="testimonials-title">
+      <h2 class="section-title" id="testimonials-title">What Clients Say</h2>
+
+      <div class="testimonial-grid">
+        <blockquote class="testimonial-card">
+          <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+          <p>"Oud Royale lasts all day and always gets compliments. Excellent service too."</p>
+          <cite>Daniel K.</cite>
+        </blockquote>
+
+        <blockquote class="testimonial-card">
+          <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+          <p>"Velvet Rose became my signature scent. Packaging was beautiful and delivery was fast."</p>
+          <cite>Amina T.</cite>
+        </blockquote>
+
+        <blockquote class="testimonial-card">
+          <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+          <p>"Helpful team on WhatsApp. They recommended Midnight Musk and it was perfect."</p>
+          <cite>Brian M.</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="faq" class="section" aria-labelledby="faq-title">
+      <h2 class="section-title" id="faq-title">Frequently Asked Questions</h2>
+
+      <div class="faq-list">
+        <details>
+          <summary>How do I place an order?</summary>
+          <p>Click any "Order via WhatsApp" button in the catalogue, then send the pre-filled message to confirm your order.</p>
+        </details>
+
+        <details>
+          <summary>Do you offer delivery?</summary>
+          <p>Yes. We provide city delivery and countrywide shipping. Final cost depends on your location.</p>
+        </details>
+
+        <details>
+          <summary>Can I get help choosing a fragrance?</summary>
+          <p>Yes. Message us on WhatsApp and share your preferences (fresh, floral, woody, sweet), and we will suggest options.</p>
+        </details>
+
+        <details>
+          <summary>Are your perfumes original?</summary>
+          <p>Our collection is curated to maintain high quality and consistency. We can share batch and sourcing details on request.</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="order" class="section order-section">
+      <h2 class="section-title">Order Instantly</h2>
+
+      <p class="order-text">
+        Click any perfume's WhatsApp button to place your order.
+        Our team will confirm availability, delivery timeline, and payment details.
+      </p>
+
+      <ol class="order-steps" aria-label="How to order">
+        <li>Select a fragrance from the catalogue.</li>
+        <li>Tap "Order via WhatsApp" to open chat.</li>
+        <li>Confirm quantity, location, and preferred delivery time.</li>
+      </ol>
+
+      <a class="main-whatsapp" href="https://wa.me/254700000000" aria-label="Chat with ClassyScents on WhatsApp">
+        Chat With Us On WhatsApp
+      </a>
+    </section>
+
+    <section id="newsletter" class="section" aria-labelledby="newsletter-title">
+      <h2 class="section-title" id="newsletter-title">Stay Updated</h2>
+
+      <p class="section-subtitle">
+        Be first to hear about new arrivals, limited editions, and seasonal offers.
+      </p>
+
+      <form class="newsletter-form" action="#" method="post">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        <button type="submit">Join Mailing List</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p><strong>ClassyScents</strong> - Luxury fragrances curated for modern lifestyles.</p>
+      <p>Email: hello@classyscents.com | Phone: +254 700 000 000</p>
+      <p>Hours: Mon - Sat, 9:00 AM - 8:00 PM</p>
+      <p>© 2026 ClassyScents. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
